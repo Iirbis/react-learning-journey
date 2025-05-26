@@ -13,13 +13,18 @@ const BIRTHDAY = "18.04.1982";
 const age = someCode(BIRTHDAY);
 
 //Arrow Functions Challenges
-//Challenge 1: Create a function that returns the square of a number
-let squareNumber = (number) => number * number;
-//Challenge 2: Return a greetuing with a name
-let greeting =(name) => "Hello, " + name + "!";
-//Challenge 3: Return true if a number is even
-let isEven = (number) => number % 2 === 0 ? true : false;
-//Challenge 4: Add two numebrs and divide the rsult by 2
-let numbers =(num1, num2) => (num1 +num2)/2;
-//Challenge 5: Return the last character of a string
-let lastCharacter = (word) => word[word.length - 1];
+
+// Challenge 1: Return the square of a number
+const squareNumber = number => number * number;
+
+// Challenge 2: Return a greeting with a name
+const greeting = name => `Hello, ${name}!`;
+
+// Challenge 3: Return true if a number is even
+const isEven = number => number % 2 === 0;
+
+// Challenge 4: Add two numbers and divide the result by 2
+const average = (num1, num2) => (num1 + num2) / 2;
+
+// Challenge 5: Return the last character of a string
+const lastCharacter = word => word[word.length - 1];
