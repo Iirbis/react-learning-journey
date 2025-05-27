@@ -28,3 +28,17 @@ const average = (num1, num2) => (num1 + num2) / 2;
 
 // Challenge 5: Return the last character of a string
 const lastCharacter = word => word[word.length - 1];
+
+// --- Arrays Challenges ---
+//Challenge 1: “Triple Trouble”
+const numbers = [1,2,3,4,5];
+const tripled = numbers.map(num => num * 3);
+//Challenge 2: "Make It Shout"
+const names = ["Ashy", "Spark", "Mischa", "Lucy"];
+const shoutedNames = names.map(name => name.toUpperCase() + '!');
+//Challenge 3: "Only the Cool Kids"
+const ages = [12, 17, 22, 30, 15, 19];
+const adults = ages.filter(age => age >= 18);
+//Challenge 4: “The Grand Total”
+const prices = [10.99, 5.49, 20.00, 3.50];
+const totalCost = prices.reduce((total, price) => total + price, 0);
